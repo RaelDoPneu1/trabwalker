@@ -3,11 +3,13 @@
     margin: 0;
 }
 body{
-    background: #240021;
-    background: linear-gradient(90deg,rgba(36, 0, 33, 1) 0%, rgba(119, 9, 121, 1) 35%, rgba(255, 0, 174, 1) 100%);
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 h1{
-    color:whitesmoke;
+    color: whitesmoke;
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -27,7 +29,13 @@ li{
 
 li a{
     display: block;
-    color: blueviolet;
+    color: white;
     text-decoration: none;
     padding: 16px;
+    font-family: "Molle", cursive;
+    font-weight: 400;
+    font-style: italic;
+}
+li a:hover{
+    color: rgb(8, 248, 0);
 }
