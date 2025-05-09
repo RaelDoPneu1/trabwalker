@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+*{
+    margin: 0;
+}
 body{
     background: #240021;
     background: linear-gradient(90deg,rgba(36, 0, 33, 1) 0%, rgba(119, 9, 121, 1) 35%, rgba(255, 0, 174, 1) 100%);
@@ -9,4 +12,22 @@ h1{
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: blueviolet;
+    text-decoration: none;
+    padding: 16px;
 }
